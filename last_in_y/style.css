@@ -1,3 +1,8 @@
+*{
+  margin:0;
+  padding:0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,11 +15,12 @@ body {
 }
 
 .logo {
-  margin-left: 160px;
+  margin-left: 320px;
   margin-top: 33px;
 }
 
 .inp-hea {
+  margin-bottom: 16px;
   margin-left: 63px;
   margin-top: 16px;
   width: 372px;
@@ -50,7 +56,7 @@ a {
   flex-direction: row;
   display: flex;
   background-color: #211c24;
-  width: 1580px;
+  width: 1903px;
   height: 632px;
 }
 
@@ -104,4 +110,350 @@ a {
   border: 1px solid #fff;
   border-radius: 5%;
   margin-top: 24px;
+}
+
+
+.device{
+  display:flex;
+  flex-direction:row;
+}
+
+.left-device{
+  display:flex;
+  flex-direction:column;
+}
+
+.ps5block{
+  width: 720px;
+  height: 328px;
+  display:flex;
+  flex-direction:row;
+}
+
+.title-ps5{
+  margin-top: 112px;
+
+  width: 338px;
+  height: 104px;
+}
+
+.h1-ps5{
+  font-weight: 500;
+  font-size: 49px;
+  color:black;
+}
+
+.p-ps5{
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  color:#909090;
+}
+
+.apple-block{
+  width: 720px;
+  height: 328px;
+  display:flex;
+  flex-direction:row;
+}
+
+.airpods{
+  display:flex;
+  flex-direction:row;
+  width: 360px;
+  height: 272px;
+  background-color: #ededed;
+}
+
+.airpods-title{
+  width: 163px;
+  height: 143px;
+  margin-top: 65px;
+  margin-left: 48px;
+}
+
+.h1-airpods{
+  font-weight: 100;
+  font-size: 29px;
+}
+
+.h1-airpods-max{
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 29px;
+}
+
+.model-airpods{
+  display:flex;
+  flex-direction:row;
+}
+
+.vision{
+  display:flex;
+  flex-direction:row;
+  width: 360px;
+  height: 272px;
+  background-color: #353535;
+}
+
+
+ .vision-img{
+  margin-top: 41px;
+  width: 136px;
+  height: 190px;
+ }
+ 
+
+ .h1-vision{
+  font-weight: 100;
+  font-size: 29px;
+  color:#fff;
+}
+
+.h1-vision-pro{
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 29px;
+  color:#fff;
+}
+
+.vision-title{
+  width: 163px;
+  height: 144px;
+  margin-top: 65px;
+  margin-left: 16px;
+}
+
+.right-device{
+  background-color: #ededed;
+  width: 1183px;
+  height: 600px;
+  display:flex;
+  flex-direction:row;
+}
+
+.mcbook-title{
+  margin-top: 204px;
+  margin-left: 56px;
+  width: 360px;
+  height: 192px;
+}
+
+.mcbook-img{
+  margin-top: 49px;
+  margin-left: 475px;
+  width: 292px;
+  height: 502px;
+}
+
+.h1-mcbook{
+  font-weight: 100;
+  font-size: 64px;
+}
+
+.h1-mcbook-air{
+  margin-left: 12px;
+  font-weight: 600;
+  font-size: 64px;
+}
+
+.model-mcbook{
+  display:flex;
+  flex-direction:row;
+}
+
+.but-mcbook{
+  width: 184px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius:5%;
+  margin-top: 16px;
+  border:1px solid #000;
+}
+
+.category{
+  width: 1903px;
+  height: 352px;
+}
+
+.blocks-cat{
+  margin-left: 380px;
+  display: flex;
+  flex-direction:row;
+}
+
+.cat-block{
+  width: 160px;
+  height: 128px;
+  margin-right: 32px;
+  background-color: #ededed;
+  border-radius:15px;
+}
+
+.watch-img{
+  margin-left: 56px;
+  margin-top: 24px;
+}
+
+.h1-cat{
+  margin-bottom: 32px;
+  margin-top: 80px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 380px;
+}
+
+.h3-cat{
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-left: 27px;
+}
+
+.market-blocks-top{
+  margin-top: 32px;
+  margin-left: 360px;
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 16px;
+}
+
+.market-blocks-bot{
+  margin-left: 360px;
+  display:flex;
+  flex-direction:row;
+}
+
+.block-market{
+  background-color: #f6f6f6;
+  width: 268px;
+  height: 432px;
+  border-radius:10px;
+  margin-left: 16px;
+}
+
+.market-img{
+  margin-top: 72px;
+  margin-left: 54px;
+}
+
+.h3-market{
+  width: 236px;
+  height: 48px;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align:center;
+}
+
+.p-market{
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  width: 236px;
+  height: 48px;
+  text-align: center;
+}
+
+.but-market{
+  width: 183px;
+  height: 48px;
+  background-color: #000;
+  color:#fff;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 24px;
+  margin-left: 42.5px;
+}
+
+.scr{
+  margin-top: 56px;
+  display:flex;
+  flex-direction:row;
+} 
+
+
+.hua-img{
+  margin-left: 58px;
+}
+
+.block-scr-1{
+  width: 475.5px;
+  height: 640px;
+}
+
+.block-scr-2{
+  background-color: #f9f9f9;
+  width: 475.5px;
+  height: 640px;
+}
+
+.block-scr-3{
+  background-color: #EAEAEA;
+  width: 475.5px;
+  height: 640px;
+}
+
+.block-scr-4{
+  background-color: #2C2C2C;
+  width: 475.75px;
+  height: 640px;
+}
+
+.h1-scr{
+  font-weight: 500;
+  font-size: 33px;
+  margin-left: 90px;
+}
+
+.p-scr{
+  font-weight: 500;
+  font-size: 14px;
+  color:#909090;
+  margin-left: 90px;
+  margin-top: 16px;
+  width: 296px;
+  height: 72px;
+}
+
+.but-scr{
+  width: 184px;
+  height: 56px;
+  border:1px solid #000;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius:5px;
+  margin-left: 90px;
+  margin-top: 32px; 
+}
+
+.h1-scr-2{
+  font-weight: 500;
+  font-size: 33px;
+  margin-left: 90px;
+  color:#fff;
+}
+
+.p-scr-2{
+  font-weight: 500;
+  font-size: 14px;
+  color:#909090;
+  margin-left: 90px;
+  margin-top: 16px;
+  width: 296px;
+  height: 72px;
+}
+
+.but-scr-2{
+  width: 184px;
+  height: 56px;
+  border:1px solid #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius:5px;
+  margin-left: 90px;
+  margin-top: 32px; 
+  background-color: #2C2C2C;
+  color:#fff;
 }
